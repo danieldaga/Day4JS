@@ -14,3 +14,13 @@ let seriesWatching = []
 seriesPending.shift()
 console.log('The length is: ', seriesPending.length);
 
+// seriesPending.splice(0,1)
+// console.warn(seriesPending);
+
+for (let i = 0; i <= 4; i++) {
+    seriesPending.splice(0,1)
+    seriesWatching.push(seriesPending[0])
+}
+console.log('the lenght is : ', seriesWatching.length);
+
+console.log(seriesWatching);
