@@ -4,7 +4,9 @@ console.log(seriesPending);
 
 for (let i = 0; i < seriesPending.length; i++) {
     console.log(i + ' ', seriesPending[i]);
-    if (seriesPending['Boolean 99']) {
+    
+    let nameSerie = seriesPending[i]
+    if (nameSerie == 'Boolean 99') {
         console.log('Found it!');
     }
 }
@@ -14,8 +16,6 @@ let seriesWatching = []
 seriesPending.shift()
 console.log('The length is seres Pending: ', seriesPending.length);
 
-// seriesPending.splice(0,1)
-// console.warn(seriesPending);
 
 for (let i = 0; i < 4; i++) {
     let watching = seriesPending.splice(0,1)
