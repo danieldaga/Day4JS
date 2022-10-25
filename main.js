@@ -14,7 +14,7 @@ for (let i = 0; i < seriesPending.length; i++) {
 let seriesWatching = []
 
 seriesPending.shift()
-console.log('The length is seres Pending: ', seriesPending.length);
+console.log('The length is series Pending: ', seriesPending.length);
 
 
 for (let i = 0; i < 4; i++) {
@@ -29,3 +29,4 @@ for (let i = 0; i < 4; i++) {
 }
 
 console.log('the lenght is series Watching: ', seriesWatching.length);
+console.log('The length is seres Pending: ', seriesPending.length);
