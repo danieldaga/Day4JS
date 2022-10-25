@@ -5,8 +5,7 @@ console.log(seriesPending);
 for (let i = 0; i < seriesPending.length; i++) {
     console.log(i + ' ', seriesPending[i]);
     
-    let nameSerie = seriesPending[i]
-    if (nameSerie == 'Boolean 99') {
+    if (seriesPending[i] == 'Boolean 99') {
         console.log('Found it!');
     }
 }
