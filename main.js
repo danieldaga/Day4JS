@@ -12,15 +12,20 @@ for (let i = 0; i < seriesPending.length; i++) {
 let seriesWatching = []
 
 seriesPending.shift()
-console.log('The length is: ', seriesPending.length);
+console.log('The length is seres Pending: ', seriesPending.length);
 
 // seriesPending.splice(0,1)
 // console.warn(seriesPending);
 
-for (let i = 0; i <= 4; i++) {
-    seriesPending.splice(0,1)
-    seriesWatching.push(seriesPending[0])
+for (let i = 0; i < 4; i++) {
+    let watching = seriesPending.splice(0,1)
+    seriesWatching.push(watching[0])
 }
-console.log('the lenght is : ', seriesWatching.length);
-
+console.log('the lenght is series Watching: ', seriesWatching.length);
 console.log(seriesWatching);
+
+for (let i = 0; i < 4; i++) {
+    seriesWatching.splice(0,1)
+}
+
+console.log('the lenght is series Watching: ', seriesWatching.length);
